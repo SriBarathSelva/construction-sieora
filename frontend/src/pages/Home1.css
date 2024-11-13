@@ -1,0 +1,67 @@
+.homeComp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .containerr{
+  
+  
+    text-align: center;
+    width:fit-content;
+    padding: 20px 200px;
+    margin: 50px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(146, 118, 191, 0.47);
+    background: rgba(49, 41, 122, 0.459);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    
+    }
+  .logoname{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    }
+
+    .motto{
+        text-align: center;
+        width: 700px;
+      }
+      
+      .mottomain{
+        font-weight: bolder;
+        font-size: 35px;
+        color: #010857;
+      }
+      .login, .register {
+        /* Remove underline */
+       color: #00042c; /* Change to your desired color */
+       font-size: 30px;
+       text-decoration: none;
+       padding: 15px;
+       text-align: center;
+       font-family:sans-serif;
+       font-weight: bold;
+       text-shadow: #A8C0FF;
+       behavior: button;
+       border-radius: 20px;
+       margin: 15px;
+       background: rgba(255, 255, 255, 0.45);
+       border-radius: 16px;
+       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+       backdrop-filter: blur(5px);
+       -webkit-backdrop-filter: blur(5px);
+       border: 1px solid rgba(255, 255, 255, 0.3);
+     }

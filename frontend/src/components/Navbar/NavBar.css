@@ -1,0 +1,113 @@
+.side-bar {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.side{
+    position: relative;
+    
+}
+
+.side-cont{
+    
+    width: 100%;
+    margin: 60px 10px;
+    
+    
+}
+.close_button{
+    position: absolute;
+    top: 40px;
+    right: -35px;
+    padding: 5px;
+   
+}
+.tab-name{
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.363) 1px 1px 1px;
+    
+}
+
+.side-bar>.list-cont::-webkit-scrollbar {
+    display: none;
+}
+
+.side-bar>.log-out {
+    width: 100%;
+    height: 15%;
+    /* background-color: rgb(132, 186, 233); */
+}
+
+.side-bar-tab {
+    width: 100%;
+    padding: 10px 5px ;
+    display: flex;
+    font-size: 20px;
+    font-weight: 20px;
+    color: #ffffff;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 1px 10px 20px;
+    border-radius: 7px;
+}
+
+.side-bar-tab-selected{
+    background-image: linear-gradient(185deg , #840202, #DA0036);
+    color: rgb(244, 244, 244);
+    fill: rgb(243, 243, 243);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.side-bar-tab:hover { 
+    background-color: rgba(21, 88, 165, 0.562);
+
+}
+
+.side-bar-tab:active { 
+    background-color: rgb(145, 135, 135);
+
+}
+
+.log-out{
+    position: relative; 
+}
+.log-out > .side-bar-tab{
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Sidebar transition effect */
+.side-bar {
+    transition: width 0.6s ease; /* Adjusted duration for smooth transition */
+    overflow: hidden;
+  }
+
+  
+  
+  
+  .side-bar-tab {
+    transition: transform 0.6s , opacity 0.6s ; /* Slow transition for icons and text */
+  }
+  
+  .side-bar.collapsed .side-bar-tab h2 {
+    opacity: 0;
+    transform: translatex(20px);
+    transition: opacity 0.6s , transform 0.6s ; /* Slow text transition */
+  }
+  .icon{
+    width: 40px;
+  }
+  .side-bar-tab img {
+    transition: opacity 0.6s ; /* Slow icon transition */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .side{
+        position: fixed;
+        
+        
+    }
+  }

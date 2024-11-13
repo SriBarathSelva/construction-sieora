@@ -1,0 +1,46 @@
+.root-component {
+    width: 100vw;
+    min-height: 100%;
+   
+    display: flex;
+   
+}
+
+.root-component>.left {
+    height: 100%;
+    
+    max-width: fit-content;
+   
+
+}
+
+.root-component>.right {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 1%;
+    
+    /* padding: 10px; */
+    
+}
+ 
+
+@media (max-width:600px) {
+
+    .root-component>.left {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 330px;
+        min-height: 100%;
+        
+    }
+
+    .root-component>.right {
+        width: 100vw;
+        height: 100%;
+        overflow-x: scroll;
+        margin-left: 60px;
+    }
+
+
+}
